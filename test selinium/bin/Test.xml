@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+
+	<!-- Suite -->
+	<listeners>
+		<listener
+			class-name="com.accenture.omnichannelframework.api.OmnichannelFrameworkListener" />
+
+	</listeners>
+	<test name="Veeva">
+
+		<classes>
+
+			<class name="Web.loginveeva">
+				<methods>
+					<include name="launch" />
+					<include name="login" />
+					<include name="ARCV_16" />
+					<!-- <include name="createApplication_submission" />
+					<include name="Import" />
+					<include name="validation" />
+					<include name="search" />
+					<include name="upload" /> -->
+					<!-- <include name="reports" /> -->
+					<!-- <include name="submissions" /> -->
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- Test -->
+
+
+</suite> 
+

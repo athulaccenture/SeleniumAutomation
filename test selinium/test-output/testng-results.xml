@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="11" total="14" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54516" started-at="2017-05-19T06:06:50Z" finished-at="2017-05-19T06:07:44Z">
+    <groups>
+    </groups>
+    <test name="Veeva" duration-ms="54516" started-at="2017-05-19T06:06:50Z" finished-at="2017-05-19T06:07:44Z">
+      <class name="Web.loginveeva">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Web.loginveeva@4e096385]" name="setUp" is-config="true" duration-ms="6108" started-at="2017-05-19T11:36:50Z" finished-at="2017-05-19T11:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:Web.loginveeva@4e096385]" name="launch" duration-ms="6950" started-at="2017-05-19T11:36:56Z" description="Launch the Veeva URL and verify its Successfully Launched" finished-at="2017-05-19T11:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.veevavault.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Web.loginveeva@4e096385]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-05-19T11:37:03Z" finished-at="2017-05-19T11:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launch status=SUCCESS method=loginveeva.launch(java.lang.String)[pri:0, instance:Web.loginveeva@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Web.loginveeva@4e096385]" name="login" duration-ms="8834" started-at="2017-05-19T11:37:03Z" description="Login with Valid Credentials" finished-at="2017-05-19T11:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athul.ks@sb-sanofi.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nano6543#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ARCV_16()[pri:0, instance:Web.loginveeva@4e096385]" name="ARCV_16" duration-ms="32604" started-at="2017-05-19T11:37:12Z" description="ARCV_FR_016.01.TC" finished-at="2017-05-19T11:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ARCV_16 -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Web.loginveeva@4e096385]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-05-19T11:37:12Z" finished-at="2017-05-19T11:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=loginveeva.login(java.lang.String, java.lang.String)[pri:0, instance:Web.loginveeva@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Web.loginveeva@4e096385]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-05-19T11:37:44Z" finished-at="2017-05-19T11:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ARCV_16 status=SUCCESS method=loginveeva.ARCV_16()[pri:0, instance:Web.loginveeva@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- Web.loginveeva -->
+    </test> <!-- Veeva -->
+  </suite> <!-- Suite -->
+</testng-results>

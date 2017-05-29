@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Web.loginveeva">
+        <methods>
+          <include name="Import"/>
+          <include name="createApplication_submission"/>
+          <include name="login"/>
+          <include name="launch"/>
+          <include name="View_08"/>
+          <include name="reports"/>
+          <include name="upload"/>
+          <include name="setUp"/>
+          <include name="validation"/>
+          <include name="View_16"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="submissions"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Web.loginveeva -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
